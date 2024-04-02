@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/oski/catkin_ws/devel/.private/posvels/setup.sh

@@ -1,0 +1,1 @@
+/home/oski/catkin_ws/devel/.private/offb/share/offb/cmake/offbConfig.cmake

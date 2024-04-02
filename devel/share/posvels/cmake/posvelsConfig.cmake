@@ -1,0 +1,1 @@
+/home/oski/catkin_ws/devel/.private/posvels/share/posvels/cmake/posvelsConfig.cmake

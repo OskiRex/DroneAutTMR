@@ -1,0 +1,5 @@
+Symlinking /home/oski/catkin_ws/devel/share/posvels/cmake/posvelsConfig-version.cmake
+Symlinking /home/oski/catkin_ws/devel/share/posvels/cmake/posvelsConfig.cmake
+Symlinking /home/oski/catkin_ws/devel/lib/posvels/vels.py
+Symlinking /home/oski/catkin_ws/devel/lib/posvels/cmake.lock
+Symlinking /home/oski/catkin_ws/devel/lib/pkgconfig/posvels.pc

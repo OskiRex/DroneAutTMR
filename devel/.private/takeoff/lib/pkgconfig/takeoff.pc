@@ -1,0 +1,8 @@
+prefix=/home/oski/catkin_ws/devel/.private/takeoff
+
+Name: takeoff
+Description: Description of takeoff
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,9 @@
+[  0%] Built target darknet_ros_msgs_generate_messages_cpp
+[  1%] [32m[1mLinking CXX shared library /home/oski/catkin_ws/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so[0m
+[ 95%] Built target darknet_ros_lib
+[ 96%] [32m[1mLinking CXX shared library /home/oski/catkin_ws/devel/.private/darknet_ros/lib/libdarknet_ros_nodelet.so[0m
+[ 97%] [32m[1mLinking CXX executable /home/oski/catkin_ws/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros[0m
+[ 98%] Built target darknet_ros_nodelet
+/usr/bin/ld: warning: libopencv_highgui.so.4.2, needed by /home/oski/catkin_ws/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so, may conflict with libopencv_highgui.so.405
+/usr/bin/ld: warning: libopencv_videoio.so.4.2, needed by /home/oski/catkin_ws/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so, may conflict with libopencv_videoio.so.405
+[100%] Built target darknet_ros
