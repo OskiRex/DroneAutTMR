@@ -1,0 +1,4 @@
+float32 vx_linear
+float32 vy_linear
+float32 vz_linear
+float32 vz_angular

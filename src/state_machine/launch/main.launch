@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- Include the MAVROS node with SITL and Gazebo -->
+	<include file="$(find px4)/launch/mavros_posix_sitl.launch">
+	</include>
+    <include file="$(find posvels)/launch/velocity.launch">
+    </include>
+
+	<!-- Our node to control the drone -->
+	<node pkg="state_machine" type="state_machine.py" name="Dronkab_state_machine" required="true" output="screen" />
+</launch>

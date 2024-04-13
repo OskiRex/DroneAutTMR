@@ -148,6 +148,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tries" TYPE FILE FILES "/home/oski/catkin_ws/src/tries/package.xml")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tries" TYPE PROGRAM FILES "/home/oski/catkin_ws/build/tries/catkin_generated/installspace/waypoints.py")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/oski/catkin_ws/build/tries/gtest/cmake_install.cmake")

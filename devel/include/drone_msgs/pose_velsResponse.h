@@ -1,0 +1,1 @@
+/home/oski/catkin_ws/devel/.private/drone_msgs/include/drone_msgs/pose_velsResponse.h

@@ -150,6 +150,11 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
+catkin_install_python(PROGRAMS
+    src/waypoints.py
+    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
 #############
 ## Install ##
 #############

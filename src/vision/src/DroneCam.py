@@ -10,12 +10,16 @@ import cvzone
 import math
 import numpy as np
 
-model = YOLO("../Yolo-Weights/yolov8n")
+from drone_msgs.msg import PixelCoords
+
+model = YOLO("~/catkin_ws/src/vision/Yolo-Weights/yolov8n")
 
 def image_callback(msg):
     try:
         bridge = CvBridge()
         cv_image = bridge.imgmsg_to_cv2(msg, "bgr8")
+
+        pose = PixelCoords()
 
         results = model(cv_image, stream=True)
 
@@ -31,6 +35,11 @@ def image_callback(msg):
 
                 conf = math.ceil((box.conf[0] * 100)) / 100
                 cvzone.putTextRect(cv_image, f'{conf}', (x1,y1-20))
+
+                pose.x = x1
+                pose.y = y1
+                pose.heigth = h
+                pose.width = w
 
         cv2.imshow("Image from ROS Topic", cv_image)
         cv2.waitKey(1)
