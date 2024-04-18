@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/manifest.l
+/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/manifest.l

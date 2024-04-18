@@ -1,8 +1,8 @@
-# Install script for directory: /home/oski/catkin_ws/src/offb
+# Install script for directory: /home/andres/DronKab/DroneAutTMR/src/offb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/oski/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/andres/DronKab/DroneAutTMR/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -49,103 +49,103 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/_setup_util.py")
+   "/home/andres/DronKab/DroneAutTMR/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE PROGRAM FILES "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE PROGRAM FILES "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/env.sh")
+   "/home/andres/DronKab/DroneAutTMR/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE PROGRAM FILES "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE PROGRAM FILES "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/setup.bash;/home/oski/catkin_ws/install/local_setup.bash")
+   "/home/andres/DronKab/DroneAutTMR/install/setup.bash;/home/andres/DronKab/DroneAutTMR/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE FILE FILES
-    "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/setup.bash"
-    "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE FILE FILES
+    "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/setup.bash"
+    "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/setup.sh;/home/oski/catkin_ws/install/local_setup.sh")
+   "/home/andres/DronKab/DroneAutTMR/install/setup.sh;/home/andres/DronKab/DroneAutTMR/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE FILE FILES
-    "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/setup.sh"
-    "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE FILE FILES
+    "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/setup.sh"
+    "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/setup.zsh;/home/oski/catkin_ws/install/local_setup.zsh")
+   "/home/andres/DronKab/DroneAutTMR/install/setup.zsh;/home/andres/DronKab/DroneAutTMR/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE FILE FILES
-    "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/setup.zsh"
-    "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE FILE FILES
+    "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/setup.zsh"
+    "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/.rosinstall")
+   "/home/andres/DronKab/DroneAutTMR/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE FILE FILES "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE FILE FILES "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/offb.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/offb.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/offb/cmake" TYPE FILE FILES
-    "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/offbConfig.cmake"
-    "/home/oski/catkin_ws/build/offb/catkin_generated/installspace/offbConfig-version.cmake"
+    "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/offbConfig.cmake"
+    "/home/andres/DronKab/DroneAutTMR/build/offb/catkin_generated/installspace/offbConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/offb" TYPE FILE FILES "/home/oski/catkin_ws/src/offb/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/offb" TYPE FILE FILES "/home/andres/DronKab/DroneAutTMR/src/offb/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/oski/catkin_ws/build/offb/gtest/cmake_install.cmake")
+  include("/home/andres/DronKab/DroneAutTMR/build/offb/gtest/cmake_install.cmake")
 
 endif()
 
@@ -157,5 +157,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/oski/catkin_ws/build/offb/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/andres/DronKab/DroneAutTMR/build/offb/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

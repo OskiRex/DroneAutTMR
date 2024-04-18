@@ -53,6 +53,9 @@ add_message_files(
   FILES
   PixelCoords.msg
   pose_vels.msg
+  Window.msg
+  Aruco.msg
+  Cone.msg
 )
 
 ## Generate services in the 'srv' folder

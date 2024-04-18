@@ -1,13 +1,16 @@
-[  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _drone_msgs_generate_messages_check_deps_Cone
+[  0%] Built target _drone_msgs_generate_messages_check_deps_Window
+[  0%] Built target _drone_msgs_generate_messages_check_deps_Aruco
 [  0%] Built target _drone_msgs_generate_messages_check_deps_PixelCoords
 [  0%] Built target _drone_msgs_generate_messages_check_deps_pose_vels
-[ 30%] Built target drone_msgs_generate_messages_py
-[ 61%] Built target drone_msgs_generate_messages_nodejs
-[ 61%] Built target drone_msgs_generate_messages_lisp
-[100%] Built target drone_msgs_generate_messages_eus
-[ 92%] Built target drone_msgs_generate_messages_cpp
+[ 70%] Built target drone_msgs_generate_messages_eus
+[ 70%] Built target drone_msgs_generate_messages_lisp
+[ 70%] Built target drone_msgs_generate_messages_py
+[ 81%] Built target drone_msgs_generate_messages_cpp
+[100%] Built target drone_msgs_generate_messages_nodejs
 [100%] Built target drone_msgs_generate_messages

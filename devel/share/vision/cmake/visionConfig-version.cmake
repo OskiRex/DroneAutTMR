@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/vision/share/vision/cmake/visionConfig-version.cmake
+/home/andres/DronKab/DroneAutTMR/devel/.private/vision/share/vision/cmake/visionConfig-version.cmake

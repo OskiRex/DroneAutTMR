@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/oski/catkin_ws/devel/.private/offb/lib/offb/offb_node"
-  "/home/oski/catkin_ws/devel/.private/offb/lib/offb/offb_node.pdb"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/offb/lib/offb/offb_node"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/offb/lib/offb/offb_node.pdb"
   "CMakeFiles/offb_node.dir/src/offb_node.cpp.o"
 )
 

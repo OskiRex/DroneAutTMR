@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/tries/share/tries/cmake/triesConfig-version.cmake
+/home/andres/DronKab/DroneAutTMR/devel/.private/tries/share/tries/cmake/triesConfig-version.cmake

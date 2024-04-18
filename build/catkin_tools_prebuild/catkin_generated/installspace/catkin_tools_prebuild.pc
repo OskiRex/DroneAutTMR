@@ -1,4 +1,4 @@
-prefix=/home/oski/catkin_ws/install
+prefix=/home/andres/DronKab/DroneAutTMR/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

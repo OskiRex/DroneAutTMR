@@ -1,4 +1,4 @@
-prefix=/home/oski/catkin_ws/install
+prefix=/home/andres/DronKab/DroneAutTMR/install
 
 Name: vision
 Description: Description of vision

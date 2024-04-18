@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/oski/catkin_ws/build/drone_msgs/gtest/lib ../lib/libgtest.so -lpthread 
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/andres/DronKab/DroneAutTMR/build/drone_msgs/gtest/lib ../lib/libgtest.so -lpthread 

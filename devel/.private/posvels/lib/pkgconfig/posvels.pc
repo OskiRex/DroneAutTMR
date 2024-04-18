@@ -1,4 +1,4 @@
-prefix=/home/oski/catkin_ws/devel/.private/posvels
+prefix=/home/andres/DronKab/DroneAutTMR/devel/.private/posvels
 
 Name: posvels
 Description: Description of posvels

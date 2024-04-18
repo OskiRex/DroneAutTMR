@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/oski/catkin_ws/devel/.private/takeoff:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/oski/catkin_ws/devel/.private/takeoff/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/oski/catkin_ws/devel/.private/takeoff/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/oski/catkin_ws/build/takeoff'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/oski/catkin_ws/devel/.private/takeoff/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/oski/catkin_ws/src/takeoff:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/andres/DronKab/DroneAutTMR/devel/.private/takeoff:$CMAKE_PREFIX_PATH"
+export PWD='/home/andres/DronKab/DroneAutTMR/build/takeoff'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/andres/DronKab/DroneAutTMR/devel/.private/takeoff/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/andres/DronKab/DroneAutTMR/src/takeoff:$ROS_PACKAGE_PATH"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oski/catkin_ws/src/vision
+CMAKE_SOURCE_DIR = /home/andres/DronKab/DroneAutTMR/src/vision
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oski/catkin_ws/build/vision
+CMAKE_BINARY_DIR = /home/andres/DronKab/DroneAutTMR/build/vision
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/oski/catkin_ws/build/vision && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oski/catkin_ws/src/vision /home/oski/catkin_ws/src/vision /home/oski/catkin_ws/build/vision /home/oski/catkin_ws/build/vision /home/oski/catkin_ws/build/vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andres/DronKab/DroneAutTMR/build/vision && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andres/DronKab/DroneAutTMR/src/vision /home/andres/DronKab/DroneAutTMR/src/vision /home/andres/DronKab/DroneAutTMR/build/vision /home/andres/DronKab/DroneAutTMR/build/vision /home/andres/DronKab/DroneAutTMR/build/vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

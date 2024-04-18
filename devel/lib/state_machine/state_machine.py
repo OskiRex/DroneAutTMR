@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/state_machine/lib/state_machine/state_machine.py
+/home/andres/DronKab/DroneAutTMR/devel/.private/state_machine/lib/state_machine/state_machine.py

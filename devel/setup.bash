@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/catkin_tools_prebuild/setup.bash
+/home/andres/DronKab/DroneAutTMR/devel/.private/catkin_tools_prebuild/setup.bash

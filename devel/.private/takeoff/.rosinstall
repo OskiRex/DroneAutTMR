@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/oski/catkin_ws/devel/.private/takeoff/setup.sh
+    local-name: /home/andres/DronKab/DroneAutTMR/devel/.private/takeoff/setup.sh

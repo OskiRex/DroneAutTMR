@@ -1,0 +1,1 @@
+/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/lib/python3/dist-packages/drone_msgs/msg/_Aruco.py

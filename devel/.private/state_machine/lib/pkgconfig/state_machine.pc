@@ -1,4 +1,4 @@
-prefix=/home/oski/catkin_ws/devel/.private/state_machine
+prefix=/home/andres/DronKab/DroneAutTMR/devel/.private/state_machine
 
 Name: state_machine
 Description: Description of state_machine

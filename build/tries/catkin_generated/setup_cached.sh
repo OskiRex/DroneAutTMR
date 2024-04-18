@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/oski/catkin_ws/devel/.private/tries:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/oski/catkin_ws/devel/.private/tries/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/oski/catkin_ws/devel/.private/tries/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/oski/catkin_ws/build/tries'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/oski/catkin_ws/devel/.private/tries/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/oski/catkin_ws/src/tries:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/andres/DronKab/DroneAutTMR/devel/.private/tries:$CMAKE_PREFIX_PATH"
+export PWD='/home/andres/DronKab/DroneAutTMR/build/tries'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/andres/DronKab/DroneAutTMR/devel/.private/tries/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/andres/DronKab/DroneAutTMR/src/tries:$ROS_PACKAGE_PATH"

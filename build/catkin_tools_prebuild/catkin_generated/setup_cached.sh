@@ -7,10 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/oski/catkin_ws/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/home/oski/src/Firmware/build/px4_sitl_default/build_gazebo-classic:/home/oski/src/Firmware/build/px4_sitl_default/build_gazebo-classic:/home/oski/src/Firmware/build/px4_sitl_default/build_gazebo-classic:/home/oski/src/Firmware/build/px4_sitl_default/build_gazebo-classic:/home/oski/src/Firmware/build/px4_sitl_default/build_gazebo-classic:/home/oski/src/Firmware/build/px4_sitl_default/build_gazebo-classic'
-export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
-export PWD='/home/oski/catkin_ws/build/catkin_tools_prebuild'
-export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/oski/catkin_ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH='/home/oski/catkin_ws/build/catkin_tools_prebuild:/home/oski/catkin_ws/src/darknet_ros/darknet_ros_msgs:/home/oski/catkin_ws/src/darknet_ros/darknet_ros:/home/oski/catkin_ws/src/mavlink:/home/oski/catkin_ws/src/mavros/libmavconn:/home/oski/catkin_ws/src/mavros/mavros_msgs:/home/oski/catkin_ws/src/mavros/mavros:/home/oski/catkin_ws/src/mavros/mavros_extras:/home/oski/catkin_ws/src/offb:/home/oski/catkin_ws/src/mavros/test_mavros:/opt/ros/noetic/share'
+export CMAKE_PREFIX_PATH="/home/andres/DronKab/DroneAutTMR/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PATH='/opt/ros/noetic/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/andres/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ibarr/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/ibarr/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ibarr/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'
+export PWD='/home/andres/DronKab/DroneAutTMR/build/catkin_tools_prebuild'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/andres/DronKab/DroneAutTMR/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/andres/DronKab/DroneAutTMR/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

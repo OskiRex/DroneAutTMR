@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oski/catkin_ws/src/offb
+CMAKE_SOURCE_DIR = /home/andres/DronKab/DroneAutTMR/src/offb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oski/catkin_ws/build/offb
+CMAKE_BINARY_DIR = /home/andres/DronKab/DroneAutTMR/build/offb
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/oski/catkin_ws/build/offb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oski/catkin_ws/src/offb /home/oski/catkin_ws/src/offb /home/oski/catkin_ws/build/offb /home/oski/catkin_ws/build/offb /home/oski/catkin_ws/build/offb/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andres/DronKab/DroneAutTMR/build/offb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andres/DronKab/DroneAutTMR/src/offb /home/andres/DronKab/DroneAutTMR/src/offb /home/andres/DronKab/DroneAutTMR/build/offb /home/andres/DronKab/DroneAutTMR/build/offb /home/andres/DronKab/DroneAutTMR/build/offb/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/depend
 

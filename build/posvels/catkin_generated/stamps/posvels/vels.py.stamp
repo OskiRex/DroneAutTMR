@@ -8,10 +8,10 @@ from tf.transformations import quaternion_from_euler
 from drone_msgs.msg import pose_vels
 
 current_state = State()
-speed_x
-speed_y
-speed_z
-speed_yaw 
+speed_x = 0.0
+speed_y = 0.0
+speed_z = 0.0
+speed_yaw = 0.0
 
 def state_cb(msg):
     global current_state
@@ -19,10 +19,10 @@ def state_cb(msg):
 
 def custom_msg_cb(msg):
     global speed_x, speed_y, speed_z, speed_yaw
-    speed_x = msg.field1  # meters per second
-    speed_y = msg.field2  # meters per second
-    speed_z = msg.field3  # meters per second
-    speed_yaw = msg.field4  # radians per second
+    speed_x = msg.vx_linear
+    speed_y = msg.vy_linear
+    speed_z= msg.vz_linear
+    speed_yaw = msg.vz_angular
 
 
 if __name__ == "__main__":
@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
     last_req = rospy.Time.now()
 
-    desired_speeds = rospy.Subscriber("DronKab_state_machine", pose_vels, callback=custom_msg_cb)
+    desired_speeds = rospy.Subscriber("/DronKab/pose_vels", pose_vels, callback=custom_msg_cb)
 
     start_time = rospy.Time.now()
 

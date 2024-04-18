@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oski/catkin_ws/src/vision
+CMAKE_SOURCE_DIR = /home/andres/DronKab/DroneAutTMR/src/vision
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oski/catkin_ws/build/vision
+CMAKE_BINARY_DIR = /home/andres/DronKab/DroneAutTMR/build/vision
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/oski/catkin_ws/build/vision
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/oski/catkin_ws/build/vision/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/andres/DronKab/DroneAutTMR/build/vision/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/oski/catkin_ws/build/vision && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oski/catkin_ws/src/vision /home/oski/catkin_ws/src/vision /home/oski/catkin_ws/build/vision /home/oski/catkin_ws/build/vision /home/oski/catkin_ws/build/vision/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andres/DronKab/DroneAutTMR/build/vision && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andres/DronKab/DroneAutTMR/src/vision /home/andres/DronKab/DroneAutTMR/src/vision /home/andres/DronKab/DroneAutTMR/build/vision /home/andres/DronKab/DroneAutTMR/build/vision /home/andres/DronKab/DroneAutTMR/build/vision/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

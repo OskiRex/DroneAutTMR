@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oski/catkin_ws/src/offb
+CMAKE_SOURCE_DIR = /home/andres/DronKab/DroneAutTMR/src/offb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oski/catkin_ws/build/offb
+CMAKE_BINARY_DIR = /home/andres/DronKab/DroneAutTMR/build/offb
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oski/catkin_ws/build/offb/CMakeFiles /home/oski/catkin_ws/build/offb/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andres/DronKab/DroneAutTMR/build/offb/CMakeFiles /home/andres/DronKab/DroneAutTMR/build/offb/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oski/catkin_ws/build/offb/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andres/DronKab/DroneAutTMR/build/offb/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

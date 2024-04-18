@@ -1,4 +1,4 @@
-prefix=/home/oski/catkin_ws/devel/.private/vision
+prefix=/home/andres/DronKab/DroneAutTMR/devel/.private/vision
 
 Name: vision
 Description: Description of vision

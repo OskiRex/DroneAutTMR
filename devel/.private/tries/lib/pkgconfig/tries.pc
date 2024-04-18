@@ -1,4 +1,4 @@
-prefix=/home/oski/catkin_ws/devel/.private/tries
+prefix=/home/andres/DronKab/DroneAutTMR/devel/.private/tries
 
 Name: tries
 Description: Description of tries

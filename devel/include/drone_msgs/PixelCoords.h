@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/drone_msgs/include/drone_msgs/PixelCoords.h
+/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/include/drone_msgs/PixelCoords.h

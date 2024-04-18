@@ -1,8 +1,8 @@
-# Install script for directory: /home/oski/catkin_ws/src/drone_msgs
+# Install script for directory: /home/andres/DronKab/DroneAutTMR/src/drone_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/oski/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/andres/DronKab/DroneAutTMR/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,12 +37,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   
       if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
         file(MAKE_DIRECTORY "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
@@ -52,144 +47,147 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
       endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/_setup_util.py")
+   "/home/andres/DronKab/DroneAutTMR/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE PROGRAM FILES "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE PROGRAM FILES "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/_setup_util.py")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/env.sh")
+   "/home/andres/DronKab/DroneAutTMR/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE PROGRAM FILES "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE PROGRAM FILES "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/env.sh")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/setup.bash;/home/oski/catkin_ws/install/local_setup.bash")
+   "/home/andres/DronKab/DroneAutTMR/install/setup.bash;/home/andres/DronKab/DroneAutTMR/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE FILE FILES
-    "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/setup.bash"
-    "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE FILE FILES
+    "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/setup.bash"
+    "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/setup.sh;/home/oski/catkin_ws/install/local_setup.sh")
+   "/home/andres/DronKab/DroneAutTMR/install/setup.sh;/home/andres/DronKab/DroneAutTMR/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE FILE FILES
-    "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/setup.sh"
-    "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE FILE FILES
+    "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/setup.sh"
+    "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/setup.zsh;/home/oski/catkin_ws/install/local_setup.zsh")
+   "/home/andres/DronKab/DroneAutTMR/install/setup.zsh;/home/andres/DronKab/DroneAutTMR/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE FILE FILES
-    "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/setup.zsh"
-    "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE FILE FILES
+    "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/setup.zsh"
+    "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/oski/catkin_ws/install/.rosinstall")
+   "/home/andres/DronKab/DroneAutTMR/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/oski/catkin_ws/install" TYPE FILE FILES "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/andres/DronKab/DroneAutTMR/install" TYPE FILE FILES "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/.rosinstall")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_msgs/msg" TYPE FILE FILES
-    "/home/oski/catkin_ws/src/drone_msgs/msg/PixelCoords.msg"
-    "/home/oski/catkin_ws/src/drone_msgs/msg/pose_vels.msg"
+    "/home/andres/DronKab/DroneAutTMR/src/drone_msgs/msg/PixelCoords.msg"
+    "/home/andres/DronKab/DroneAutTMR/src/drone_msgs/msg/pose_vels.msg"
+    "/home/andres/DronKab/DroneAutTMR/src/drone_msgs/msg/Window.msg"
+    "/home/andres/DronKab/DroneAutTMR/src/drone_msgs/msg/Aruco.msg"
+    "/home/andres/DronKab/DroneAutTMR/src/drone_msgs/msg/Cone.msg"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_msgs/cmake" TYPE FILE FILES "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/drone_msgs-msg-paths.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_msgs/cmake" TYPE FILE FILES "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/drone_msgs-msg-paths.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/oski/catkin_ws/devel/.private/drone_msgs/include/drone_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/include/drone_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/oski/catkin_ws/devel/.private/drone_msgs/share/roseus/ros/drone_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/roseus/ros/drone_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/oski/catkin_ws/devel/.private/drone_msgs/share/common-lisp/ros/drone_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/common-lisp/ros/drone_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/oski/catkin_ws/devel/.private/drone_msgs/share/gennodejs/ros/drone_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/gennodejs/ros/drone_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/oski/catkin_ws/devel/.private/drone_msgs/lib/python3/dist-packages/drone_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/lib/python3/dist-packages/drone_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/oski/catkin_ws/devel/.private/drone_msgs/lib/python3/dist-packages/drone_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/lib/python3/dist-packages/drone_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/drone_msgs.pc")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/drone_msgs.pc")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_msgs/cmake" TYPE FILE FILES "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/drone_msgs-msg-extras.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_msgs/cmake" TYPE FILE FILES "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/drone_msgs-msg-extras.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_msgs/cmake" TYPE FILE FILES
-    "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/drone_msgsConfig.cmake"
-    "/home/oski/catkin_ws/build/drone_msgs/catkin_generated/installspace/drone_msgsConfig-version.cmake"
+    "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/drone_msgsConfig.cmake"
+    "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/catkin_generated/installspace/drone_msgsConfig-version.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_msgs" TYPE FILE FILES "/home/oski/catkin_ws/src/drone_msgs/package.xml")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_msgs" TYPE FILE FILES "/home/andres/DronKab/DroneAutTMR/src/drone_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/oski/catkin_ws/build/drone_msgs/gtest/cmake_install.cmake")
+  include("/home/andres/DronKab/DroneAutTMR/build/drone_msgs/gtest/cmake_install.cmake")
 
 endif()
 
@@ -201,5 +199,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/oski/catkin_ws/build/drone_msgs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/andres/DronKab/DroneAutTMR/build/drone_msgs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

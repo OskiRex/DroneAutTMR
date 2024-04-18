@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/vision/lib/vision/test.py
+/home/andres/DronKab/DroneAutTMR/devel/.private/vision/lib/vision/test.py

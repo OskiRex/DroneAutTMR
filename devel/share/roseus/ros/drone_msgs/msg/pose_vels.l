@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/msg/pose_vels.l
+/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/msg/pose_vels.l

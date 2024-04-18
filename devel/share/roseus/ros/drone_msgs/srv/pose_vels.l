@@ -1,1 +1,0 @@
-/home/oski/catkin_ws/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/srv/pose_vels.l

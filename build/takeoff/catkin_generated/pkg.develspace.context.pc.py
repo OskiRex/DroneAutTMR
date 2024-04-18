@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "takeoff"
-PROJECT_SPACE_DIR = "/home/oski/catkin_ws/devel/.private/takeoff"
+PROJECT_SPACE_DIR = "/home/andres/DronKab/DroneAutTMR/devel/.private/takeoff"
 PROJECT_VERSION = "0.0.0"

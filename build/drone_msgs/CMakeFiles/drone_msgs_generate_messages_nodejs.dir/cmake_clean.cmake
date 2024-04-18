@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/oski/catkin_ws/devel/.private/drone_msgs/share/gennodejs/ros/drone_msgs/msg/PixelCoords.js"
-  "/home/oski/catkin_ws/devel/.private/drone_msgs/share/gennodejs/ros/drone_msgs/msg/pose_vels.js"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/gennodejs/ros/drone_msgs/msg/Aruco.js"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/gennodejs/ros/drone_msgs/msg/Cone.js"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/gennodejs/ros/drone_msgs/msg/PixelCoords.js"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/gennodejs/ros/drone_msgs/msg/Window.js"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/gennodejs/ros/drone_msgs/msg/pose_vels.js"
   "CMakeFiles/drone_msgs_generate_messages_nodejs"
 )
 

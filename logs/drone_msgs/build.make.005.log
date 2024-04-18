@@ -1,20 +1,29 @@
+[35m[1mScanning dependencies of target _drone_msgs_generate_messages_check_deps_Aruco[0m
+[35m[1mScanning dependencies of target _drone_msgs_generate_messages_check_deps_Cone[0m
+[  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target std_msgs_generate_messages_lisp
-[  0%] Built target std_msgs_generate_messages_eus
-[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _drone_msgs_generate_messages_check_deps_Cone
 [  0%] Built target _drone_msgs_generate_messages_check_deps_pose_vels
+[  0%] Built target _drone_msgs_generate_messages_check_deps_Window
+[  0%] Built target _drone_msgs_generate_messages_check_deps_Aruco
 [  0%] Built target _drone_msgs_generate_messages_check_deps_PixelCoords
-[ 15%] [34m[1mGenerating C++ code from drone_msgs/pose_vels.srv[0m
-[ 15%] [34m[1mGenerating EusLisp code from drone_msgs/pose_vels.srv[0m
-[ 23%] [34m[1mGenerating Python code from SRV drone_msgs/pose_vels[0m
-[ 30%] [34m[1mGenerating Lisp code from drone_msgs/pose_vels.srv[0m
-[ 38%] [34m[1mGenerating Javascript code from drone_msgs/pose_vels.srv[0m
-[ 46%] Built target drone_msgs_generate_messages_lisp
-[ 53%] Built target drone_msgs_generate_messages_nodejs
-[ 69%] Built target drone_msgs_generate_messages_eus
-[ 76%] Built target drone_msgs_generate_messages_cpp
-[ 92%] [34m[1mGenerating Python msg __init__.py for drone_msgs[0m
-[ 92%] [34m[1mGenerating Python srv __init__.py for drone_msgs[0m
+[  3%] [34m[1mGenerating Python from MSG drone_msgs/Cone[0m
+[  7%] [34m[1mGenerating Python from MSG drone_msgs/Aruco[0m
+[ 11%] [34m[1mGenerating Javascript code from drone_msgs/Aruco.msg[0m
+[ 14%] [34m[1mGenerating Javascript code from drone_msgs/Cone.msg[0m
+[ 18%] [34m[1mGenerating EusLisp code from drone_msgs/Aruco.msg[0m
+[ 22%] [34m[1mGenerating Lisp code from drone_msgs/Aruco.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from drone_msgs/Cone.msg[0m
+[ 29%] [34m[1mGenerating EusLisp code from drone_msgs/Cone.msg[0m
+[ 33%] [34m[1mGenerating C++ code from drone_msgs/Aruco.msg[0m
+[ 37%] [34m[1mGenerating C++ code from drone_msgs/Cone.msg[0m
+[ 48%] Built target drone_msgs_generate_messages_lisp
+[ 59%] Built target drone_msgs_generate_messages_nodejs
+[ 74%] Built target drone_msgs_generate_messages_eus
+[ 85%] Built target drone_msgs_generate_messages_cpp
+[ 88%] [34m[1mGenerating Python msg __init__.py for drone_msgs[0m
 [100%] Built target drone_msgs_generate_messages_py
 [100%] Built target drone_msgs_generate_messages

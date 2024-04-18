@@ -1,2 +1,0 @@
-/usr/bin/ld: warning: libopencv_highgui.so.4.2, needed by /home/oski/catkin_ws/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so, may conflict with libopencv_highgui.so.407
-/usr/bin/ld: warning: libopencv_videoio.so.4.2, needed by /home/oski/catkin_ws/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so, may conflict with libopencv_videoio.so.407

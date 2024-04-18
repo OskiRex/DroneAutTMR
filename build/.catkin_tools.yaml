@@ -1,6 +1,6 @@
-devel_space: /home/oski/catkin_ws/devel
+devel_space: /home/andres/DronKab/DroneAutTMR/devel
 install: false
-install_space: /home/oski/catkin_ws/install
+install_space: /home/andres/DronKab/DroneAutTMR/install
 profile: default
-source_space: /home/oski/catkin_ws/src
-workspace: /home/oski/catkin_ws
+source_space: /home/andres/DronKab/DroneAutTMR/src
+workspace: /home/andres/DronKab/DroneAutTMR

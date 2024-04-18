@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/offb/share/offb/cmake/offbConfig.cmake
+/home/andres/DronKab/DroneAutTMR/devel/.private/offb/share/offb/cmake/offbConfig.cmake

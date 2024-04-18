@@ -1,0 +1,7 @@
+Symlinking /home/andres/DronKab/DroneAutTMR/devel/lib/vision/DroneCam.py
+Symlinking /home/andres/DronKab/DroneAutTMR/devel/lib/vision/cmake.lock
+Symlinking /home/andres/DronKab/DroneAutTMR/devel/lib/vision/test.py
+Symlinking /home/andres/DronKab/DroneAutTMR/devel/lib/vision/takeoff.py
+Symlinking /home/andres/DronKab/DroneAutTMR/devel/lib/pkgconfig/vision.pc
+Symlinking /home/andres/DronKab/DroneAutTMR/devel/share/vision/cmake/visionConfig.cmake
+Symlinking /home/andres/DronKab/DroneAutTMR/devel/share/vision/cmake/visionConfig-version.cmake

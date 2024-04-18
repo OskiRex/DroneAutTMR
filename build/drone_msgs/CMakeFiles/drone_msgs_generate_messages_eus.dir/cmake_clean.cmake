@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/oski/catkin_ws/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/manifest.l"
-  "/home/oski/catkin_ws/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/msg/PixelCoords.l"
-  "/home/oski/catkin_ws/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/msg/pose_vels.l"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/manifest.l"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/msg/Aruco.l"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/msg/Cone.l"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/msg/PixelCoords.l"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/msg/Window.l"
+  "/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/roseus/ros/drone_msgs/msg/pose_vels.l"
   "CMakeFiles/drone_msgs_generate_messages_eus"
 )
 

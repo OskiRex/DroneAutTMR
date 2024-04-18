@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/takeoff/lib/pkgconfig/takeoff.pc
+/home/andres/DronKab/DroneAutTMR/devel/.private/takeoff/lib/pkgconfig/takeoff.pc

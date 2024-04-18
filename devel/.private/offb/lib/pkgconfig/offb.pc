@@ -1,4 +1,4 @@
-prefix=/home/oski/catkin_ws/devel/.private/offb
+prefix=/home/andres/DronKab/DroneAutTMR/devel/.private/offb
 
 Name: offb
 Description: Description of offb

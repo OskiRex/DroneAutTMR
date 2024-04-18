@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/vision/lib/vision/DroneCam.py
+/home/andres/DronKab/DroneAutTMR/devel/.private/vision/lib/vision/DroneCam.py

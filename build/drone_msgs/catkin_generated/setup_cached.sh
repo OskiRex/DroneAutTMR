@@ -7,10 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/oski/catkin_ws/devel/.private/drone_msgs:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/oski/catkin_ws/devel/.private/drone_msgs/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/oski/catkin_ws/devel/.private/drone_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/oski/catkin_ws/build/drone_msgs'
-export PYTHONPATH="/home/oski/catkin_ws/devel/.private/drone_msgs/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/oski/catkin_ws/devel/.private/drone_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/oski/catkin_ws/src/drone_msgs:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/andres/DronKab/DroneAutTMR/build/drone_msgs'
+export PYTHONPATH="/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/andres/DronKab/DroneAutTMR/src/drone_msgs:$ROS_PACKAGE_PATH"

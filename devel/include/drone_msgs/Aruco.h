@@ -1,0 +1,1 @@
+/home/andres/DronKab/DroneAutTMR/devel/.private/drone_msgs/include/drone_msgs/Aruco.h

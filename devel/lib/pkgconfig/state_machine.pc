@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/state_machine/lib/pkgconfig/state_machine.pc
+/home/andres/DronKab/DroneAutTMR/devel/.private/state_machine/lib/pkgconfig/state_machine.pc

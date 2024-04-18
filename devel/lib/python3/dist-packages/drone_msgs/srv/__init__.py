@@ -1,1 +1,0 @@
-/home/oski/catkin_ws/devel/.private/drone_msgs/lib/python3/dist-packages/drone_msgs/srv/__init__.py

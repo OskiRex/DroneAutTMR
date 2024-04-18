@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/oski/catkin_ws/src/offb/src/offb_node.cpp
+/home/andres/DronKab/DroneAutTMR/src/offb/src/offb_node.cpp
 ros/ros.h
 -
 geometry_msgs/PoseStamped.h

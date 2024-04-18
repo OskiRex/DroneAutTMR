@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/tries/lib/tries/waypoints.py
+/home/andres/DronKab/DroneAutTMR/devel/.private/tries/lib/tries/waypoints.py

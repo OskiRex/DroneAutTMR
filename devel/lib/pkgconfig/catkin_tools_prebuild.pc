@@ -1,1 +1,1 @@
-/home/oski/catkin_ws/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc
+/home/andres/DronKab/DroneAutTMR/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc
